@@ -20,3 +20,6 @@
                     };
 
                     entityType.AddUnidirectionalNavigation(info, parterInfo);*/
+
+
+my new added test coseds.
