@@ -16,6 +16,9 @@
     <Filter Include="GameEngine\SwapChain">
       <UniqueIdentifier>{dba9bbc2-f8a5-4eb9-ac69-06ef6d5fc018}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameEngine\DeviceContext">
+      <UniqueIdentifier>{e0282044-3d3f-427f-a05e-c6f14920d740}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +36,9 @@
     <ClCompile Include="SwapChain.cpp">
       <Filter>GameEngine\SwapChain</Filter>
     </ClCompile>
+    <ClCompile Include="DeviceContext.cpp">
+      <Filter>GameEngine\DeviceContext</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppWindow.h">
@@ -46,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="SwapChain.h">
       <Filter>GameEngine\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceContext.h">
+      <Filter>GameEngine\DeviceContext</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
