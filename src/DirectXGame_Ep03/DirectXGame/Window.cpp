@@ -34,7 +34,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg,  WPARAM wParam, LPARAM lParam)
         // Event fired when the window will be destroyed
 
         Window* window = (Window*)GetWindowLongPtr(hwnd, GWLP_USERDATA);
-        window->onDestory();
+        window->onDestroy();
         ::PostQuitMessage(0);
         break;
     }
@@ -61,7 +61,7 @@ bool Window::init()
     wc.lpszClassName = L"MyWindowClass";
     wc.lpszMenuName = L"";
     wc.style = NULL;
-    wc.lpfnWndProc = WndProc;
+    wc.lpfnWndProc = &WndProc;
 
     if (!::RegisterClassEx(&wc))
     {
@@ -151,7 +151,7 @@ void Window::onUpdate()
 {
 }
 
-void Window::onDestory()
+void Window::onDestroy()
 {
     m_is_run = false;
 }

@@ -24,7 +24,7 @@ public:
     // Events
     virtual void onCreate();
     virtual void onUpdate();
-    virtual void onDestory();
+    virtual void onDestroy();
 
 protected:
     HWND m_hwnd;
