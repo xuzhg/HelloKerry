@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31815.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolvePropertyBenchmark", "ResolvePropertyBenchmark\ResolvePropertyBenchmark.csproj", "{ED8B1086-2998-4DB6-B4E0-7AB4788A1E7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.OData.Edm", "..\..\github\odata\odata.net\src\Microsoft.OData.Edm\Microsoft.OData.Edm.csproj", "{B8EC2FAD-15B3-4802-AAB2-1AA8680AB3E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED8B1086-2998-4DB6-B4E0-7AB4788A1E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8B1086-2998-4DB6-B4E0-7AB4788A1E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8B1086-2998-4DB6-B4E0-7AB4788A1E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8B1086-2998-4DB6-B4E0-7AB4788A1E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EC2FAD-15B3-4802-AAB2-1AA8680AB3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EC2FAD-15B3-4802-AAB2-1AA8680AB3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EC2FAD-15B3-4802-AAB2-1AA8680AB3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EC2FAD-15B3-4802-AAB2-1AA8680AB3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {853ED67E-3BEF-473E-987F-F752FA703881}
+	EndGlobalSection
+EndGlobal
